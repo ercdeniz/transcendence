@@ -1,0 +1,43 @@
+
+.navbar .nav-link {
+    color: white;
+    transition: color 0.3s, text-shadow 0.3s;
+    font-family: 'Orbitron', sans-serif;
+    margin-right: 20px;
+    line-height: 60px;
+}
+
+#navbarToggle {
+    background-color: white;
+    border: 1px solid white;
+}
+
+#navbarToggle:hover {
+    background-color: #d8d8d8;
+}
+
+.nav-link {
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar .nav-link:hover {
+    color: #c74d15;
+    text-shadow: 0 0 10px rgba(202, 118, 9, 0.8);
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar .dropdown-item {
+    color: rgb(193, 89, 21);
+}
+
+.navbar .dropdown-item:hover {
+    background-color: rgba(167, 82, 8, 0.67);
+}

@@ -1,0 +1,88 @@
+
+
+h1 {
+    color: rgba(236, 207, 229, 0.976); /* Başlık rengi fuşya */
+}
+
+.form-container {
+    display: none;
+}
+
+.form-container.active {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #454dd6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c41e61;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+p a {
+    color: #cfcf6a;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.gdpr-policy {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.gdpr-consent {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #dcc0c0c3;
+    border: 1px solid #ffd1bd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(255, 0, 0); 
+}
+
+.gdpr-consent input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffd1bd;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.gdpr-consent input[type="checkbox"]:checked {
+    background-color: #e3794c;
+}

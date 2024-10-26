@@ -1,0 +1,144 @@
+#nameInput h2,
+#nameInput label {
+    font-family: 'Orbitron', sans-serif; 
+    color: rgb(181, 174, 182); 
+}
+
+
+#nameInput input {
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border-radius: 10px; 
+    border: 1px solid #4208086d; 
+	background-color: #600a0a7a;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#playerNamesForm button {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 45px;
+    border: none;
+    background-color: rgb(145, 15, 15);
+    color: rgba(248, 243, 243, 0.489);
+    box-shadow: 0px 10px 10px rgb(102, 9, 9) inset,
+        0px 5px 10px rgba(67, 4, 4, 0.504),
+        0px -10px 10px rgb(59, 3, 3) inset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#playerNamesForm button:hover {
+    animation: jello-horizontal 0.9s both;
+}
+
+.Multisettings {
+	position: absolute;
+	transform: translateY(-100px);
+    left: 55%;
+
+}
+ 
+ #MsettingsText1,#MsettingsMenuText2
+{
+
+    font-family: 'Orbitron', sans-serif; 
+    color: rgb(181, 174, 182);
+    margin-top: 15px;
+}
+
+#MsettingsMenuText2
+{
+    margin-top: 30px;
+}
+    
+#gameContainer {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.MultiScore
+{
+    margin-top: -350px;
+}
+
+.startButton
+{
+    left: 30%;
+}
+
+.startButton, .settingButton2{
+    position: absolute;
+    top: 90%;
+    width: 150px;
+    height: 55px;
+    border-radius: 45px;
+    border: none;
+    background-color: rgb(145, 15, 15);
+    color: rgba(248, 243, 243, 0.489);
+    box-shadow: 0px 10px 10px rgb(102, 9, 9) inset,
+        0px 5px 10px rgba(67, 4, 4, 0.504),
+        0px -10px 10px rgb(59, 3, 3) inset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startButton:before, .settingButton2:before, #applySettingsButton2:before {
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.678);
+    content: "";
+    filter: blur(1px);
+    top: 7px;
+    border-radius: 50%;
+}
+
+.startButton:after, .settingButton2:after, #applySettingsButton2:after {
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(249, 59, 227, 0.137);
+    content: "";
+    filter: blur(1px);
+    bottom: 7px;
+    border-radius: 50%;
+}
+
+
+.settingButton2 {
+
+    left: 60%;
+}
+
+
+#applySettingsButton2 {
+    position: absolute;
+    left: 55%;
+    top: 117%;
+    width: 100px;
+    height: 55px;
+    border-radius: 45px;
+    border: none;
+    background-color: rgb(145, 15, 15);
+    color: rgba(248, 243, 243, 0.489);
+    box-shadow: 0px 10px 10px rgb(102, 9, 9) inset,
+        0px 5px 10px rgba(67, 4, 4, 0.504),
+        0px -10px 10px rgb(59, 3, 3) inset;
+    cursor: pointer;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
